@@ -1,0 +1,60 @@
+input#text {
+
+	/* 文本框基础样式 */
+	font-size: 120%;
+	color: #5a5854;
+	background-color: #f2f2f2;
+
+	/* 文本框背景图片为什么显示不出来啊啊啊！！！ */
+	background-image: url("/static/images/search.jpg");
+
+	/* 文本框的位置 */
+	position: absolute;
+	top: 50%;
+	left: 40%;
+
+	/* 文本框的样式 */
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding: 5px 5px 5px 30px;
+	background-position: 8px 9px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+/* 文本框的悬停效果 */
+input:focus, input:hover {
+	background-color: #fff;
+	border:1px solid #b1e1e4;
+}
+
+input#submit {
+
+	/* 提交按钮的位置 */
+	position: absolute;
+	top: 50%;
+	left: 33%;
+
+	/* 提交按钮基础样式 */
+	color: #444;
+	text-shadow: 0px 1px 1px #fff;
+	border-bottom: 2px solid #b2b2b2;
+	background-color: #b9e4e3;
+	border-radius: 5px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#beeae9), to(#a8cfce));
+	background: -moz-linear-gradient(top, #beeae9, #a8cfce);
+	background: -o-linear-gradient(top, #beeae9, #a8cfce);
+	background: -ms-linear-gradient(top, #beeae9, #a8cfce);
+}
+
+/*提交按钮的悬停效果*/
+input#submit:hover {
+	color: #333;
+	border: 1px solid #a4a4a4;
+	border-top: 2px solid #b2b2b2;
+	background-color: #a0dbc4;
+	background: -webkit-gradient(linear, left top, left bottom, from(#a8cfce), to(#beeae9));
+	background: -moz-linear-gradient(top, #a8cfce, #beeae9);
+	background: -o-linear-gradient(top, #a8cfce, #beeae9);
+	background: -ms-linear-gradient(top, #a8cfce, #beeae9);
+}
